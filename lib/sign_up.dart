@@ -222,7 +222,7 @@ class Screen2 extends StatelessWidget {
                           height: 44,
                           child: ElevatedButton(
                             onPressed: () {
-                              controller.text = password_generate(10);
+                              controller.text = password_generate(16);
                             },
                             style: ElevatedButton.styleFrom(
                                 backgroundColor: const Color(0xFF2F80ED),
